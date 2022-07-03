@@ -31,3 +31,29 @@ export function addProduct(
     products.push(newProduct);
     return products;
   }
+
+  export function stockRoom() {
+    return [
+      {
+      id: 0,
+      category: 'shoes',
+      productName: 'Nike Air Max',
+      price: 650,
+      },
+      {
+      id: 1,
+      category: 't-shirt',
+      productName: 'Nike SB',
+      price: 150,
+      },
+    ];
+  }
+  
+  export function toAdd() {
+    return {
+        id:2,
+        category: 'Jumper',
+        productName: 'Jordan',
+        price: 300,
+      }
+  }
