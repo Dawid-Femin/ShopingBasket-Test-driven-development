@@ -1,4 +1,4 @@
-import { validateCurrency } from '../lib/shoppingBasket';
+import {validateCurrency} from '../lib/shoppingBasket';
 
 describe('validateCurrency', () => {
     test('Returns $5.00 for input 5', () => {
@@ -10,6 +10,6 @@ describe('validateCurrency', () => {
     });
     
     test('Returns £12.30 for input 12.3', () => {
-        expect(validateCurrency(12.3)).toBe('£12.30');
+        expect(validateCurrency(12.3, '£')).toBe('£12.30');
     });
 })
