@@ -11,5 +11,5 @@ export const checkBasket = (
         category: string, 
         product: string, 
         price: number}>) => {
-    return basket;
+    return 0;
 } 
