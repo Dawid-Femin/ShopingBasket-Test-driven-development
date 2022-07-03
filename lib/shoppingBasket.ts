@@ -32,6 +32,21 @@ export function addProduct(
     return products;
   }
 
+  export function removeProduct(
+    products: Array<{
+      id: number;
+      category: string;
+      productName: string;
+      price: number;
+    }>,
+    removedProductId: number
+  ) {
+    const newProducts = products.filter(
+      (product) => product.id !== removedProductId
+    );
+    return newProducts;
+  }
+
   export function stockRoom() {
     return [
       {
