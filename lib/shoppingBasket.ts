@@ -12,4 +12,22 @@ export const checkBasket = (
         product: string, 
         price: number}>) => {
     return 0;
-} 
+}
+
+export function addProduct(
+    products: Array<{
+      id: number;
+      category: string;
+      productName: string;
+      price: number;
+    }>,
+    newProduct: { 
+      id: number;
+      category: string;
+      productName: string;
+      price: number;
+    }
+  ) {
+    products.push(newProduct);
+    return products;
+  }
