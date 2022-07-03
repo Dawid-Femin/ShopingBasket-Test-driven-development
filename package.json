@@ -1,0 +1,25 @@
+{
+  "name": "shopingbasket-test-driven-development",
+  "version": "1.0.0",
+  "description": "TDD Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watchAll"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dawid-Femin/ShopingBasket-Test-driven-development.git"
+  },
+  "author": "Dawid Femin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dawid-Femin/ShopingBasket-Test-driven-development/issues"
+  },
+  "homepage": "https://github.com/Dawid-Femin/ShopingBasket-Test-driven-development#readme",
+  "devDependencies": {
+    "@types/jest": "^28.1.4",
+    "jest": "^28.1.2",
+    "ts-jest": "^28.0.5",
+    "typescript": "^4.7.4"
+  }
+}
